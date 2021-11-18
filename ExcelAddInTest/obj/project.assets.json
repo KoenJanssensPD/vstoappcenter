@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.8": {
+    ".NETFramework,Version=v4.7.2": {
       "Microsoft.AppCenter/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -169,7 +169,20 @@
           "lib/net461/SQLitePCLRaw.nativelibrary.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.0.2": {
+      "SQLitePCLRaw.bundle_sqlite3/2.0.7": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.7": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -255,6 +268,18 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
+      "SQLitePCLRaw.provider.sqlite3/2.0.7": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -328,7 +353,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win": {
+    ".NETFramework,Version=v4.7.2/win": {
       "Microsoft.AppCenter/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -496,7 +521,20 @@
           "lib/net461/SQLitePCLRaw.nativelibrary.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.0.2": {
+      "SQLitePCLRaw.bundle_sqlite3/2.0.7": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.7": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -532,6 +570,18 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
+      "SQLitePCLRaw.provider.sqlite3/2.0.7": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -605,7 +655,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win-x64": {
+    ".NETFramework,Version=v4.7.2/win-x64": {
       "Microsoft.AppCenter/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -773,7 +823,20 @@
           "lib/net461/SQLitePCLRaw.nativelibrary.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.0.2": {
+      "SQLitePCLRaw.bundle_sqlite3/2.0.7": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.7": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -812,6 +875,18 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
+      "SQLitePCLRaw.provider.sqlite3/2.0.7": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -885,7 +960,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win-x86": {
+    ".NETFramework,Version=v4.7.2/win-x86": {
       "Microsoft.AppCenter/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -1053,7 +1128,20 @@
           "lib/net461/SQLitePCLRaw.nativelibrary.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.0.2": {
+      "SQLitePCLRaw.bundle_sqlite3/2.0.7": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.7": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -1090,6 +1178,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3/2.0.7": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
       "System.Buffers/4.4.0": {
@@ -1470,15 +1570,27 @@
         "sqlitepclraw.bundle_green.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/2.0.2": {
-      "sha512": "TFSBX426OelS1tkaVC254NVVlrJIe9YLhWPkEvuqJj2104QpmDmEYOhfdfDJD1E/2SmqDhoRw1ek5cQHj8olcQ==",
+    "SQLitePCLRaw.bundle_sqlite3/2.0.7": {
+      "sha512": "biz9ENZHWtCSgN5T/8hDnPfKWSDIlC3sOdnB6llhyibxZ74x9foH1UBgJXok4vCmI0IDyDWnK22ZlkZ3i3aZ/w==",
       "type": "package",
-      "path": "sqlitepclraw.core/2.0.2",
+      "path": "sqlitepclraw.bundle_sqlite3/2.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_sqlite3.2.0.7.nupkg.sha512",
+        "sqlitepclraw.bundle_sqlite3.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/2.0.7": {
+      "sha512": "2z+PXZqmwC8K+/4imlqAXBaDYlbkMfNvmDhuTIuJHPsbT9mG1HJcOsRa/Mx7DUiwgIXSj8yXbkjZ6jKHeE6PJQ==",
+      "type": "package",
+      "path": "sqlitepclraw.core/2.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.2.0.2.nupkg.sha512",
+        "sqlitepclraw.core.2.0.7.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
@@ -1522,6 +1634,21 @@
         "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll",
         "sqlitepclraw.provider.dynamic_cdecl.2.0.2.nupkg.sha512",
         "sqlitepclraw.provider.dynamic_cdecl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.sqlite3/2.0.7": {
+      "sha512": "kKYThaQi4Mlklablh70ODAYdiBDRxkCj1+k7OqFewejqcOnhzfirdGJu24XPYY++Uaf4sCsAWkD63F0AAlaJGg==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.sqlite3/2.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/SQLitePCLRaw.provider.sqlite3.dll",
+        "lib/net6.0-windows10/SQLitePCLRaw.provider.sqlite3.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll",
+        "lib/uap10.0/SQLitePCLRaw.provider.sqlite3.dll",
+        "sqlitepclraw.provider.sqlite3.2.0.7.nupkg.sha512",
+        "sqlitepclraw.provider.sqlite3.nuspec"
       ]
     },
     "System.Buffers/4.4.0": {
@@ -1780,9 +1907,11 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.8": [
+    ".NETFramework,Version=v4.7.2": [
+      "Microsoft.AppCenter >= 4.4.0",
       "Microsoft.AppCenter.Analytics >= 4.4.0",
-      "Microsoft.AppCenter.Crashes >= 4.4.0"
+      "Microsoft.AppCenter.Crashes >= 4.4.0",
+      "SQLitePCLRaw.bundle_sqlite3 >= 2.0.7"
     ]
   },
   "packageFolders": {
@@ -1793,11 +1922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KoenJanssens\\source\\repos\\VSTOwithAPPCENTERtest\\ExcelAddInTest\\ExcelAddInTest.csproj",
+      "projectUniqueName": "C:\\Users\\KoenJanssens\\source\\repos\\vstoappcenter\\ExcelAddInTest\\ExcelAddInTest.csproj",
       "projectName": "ExcelAddInTest",
-      "projectPath": "C:\\Users\\KoenJanssens\\source\\repos\\VSTOwithAPPCENTERtest\\ExcelAddInTest\\ExcelAddInTest.csproj",
+      "projectPath": "C:\\Users\\KoenJanssens\\source\\repos\\vstoappcenter\\ExcelAddInTest\\ExcelAddInTest.csproj",
       "packagesPath": "C:\\Users\\KoenJanssens\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KoenJanssens\\source\\repos\\VSTOwithAPPCENTERtest\\ExcelAddInTest\\obj\\",
+      "outputPath": "C:\\Users\\KoenJanssens\\source\\repos\\vstoappcenter\\ExcelAddInTest\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1811,21 +1940,25 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net48"
+        "net472"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net48": {
+        "net472": {
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
-      "net48": {
+      "net472": {
         "dependencies": {
+          "Microsoft.AppCenter": {
+            "target": "Package",
+            "version": "[4.4.0, )"
+          },
           "Microsoft.AppCenter.Analytics": {
             "target": "Package",
             "version": "[4.4.0, )"
@@ -1833,6 +1966,10 @@
           "Microsoft.AppCenter.Crashes": {
             "target": "Package",
             "version": "[4.4.0, )"
+          },
+          "SQLitePCLRaw.bundle_sqlite3": {
+            "target": "Package",
+            "version": "[2.0.7, )"
           }
         },
         "imports": [

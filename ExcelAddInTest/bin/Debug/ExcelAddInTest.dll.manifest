@@ -694,7 +694,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A9AbCcOP/Fr2i3bnZ/EfR0ZxYSj3DgBpMjUSAlpMCYY=</dsig:DigestValue>
+        <dsig:DigestValue>xVqxMYBlpmM7kA8gPhx/o91ujQThQnQiPd9cN7rapKo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -759,26 +759,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.batteries_v2.dll" size="6144">
-      <assemblyIdentity name="SQLitePCLRaw.batteries_v2" version="2.0.2.669" publicKeyToken="8226EA5DF37BCAE9" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.batteries_v2.dll" size="5120">
+      <assemblyIdentity name="SQLitePCLRaw.batteries_v2" version="2.0.7.1395" publicKeyToken="8226EA5DF37BCAE9" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jOvNS5V8DU3wdc1L9wsr06MuBjuEVRDvdtZ/NB63rk0=</dsig:DigestValue>
+        <dsig:DigestValue>hUMWPfip6Njv5v9fnU3MFeofG47F9M2b4pQ9U4RA1ow=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.core.dll" size="46080">
-      <assemblyIdentity name="SQLitePCLRaw.core" version="2.0.2.669" publicKeyToken="1488E028CA7AB535" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.core.dll" size="50688">
+      <assemblyIdentity name="SQLitePCLRaw.core" version="2.0.7.1395" publicKeyToken="1488E028CA7AB535" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6RfljtHVNCSyOzCRqL6MF/NicZDuo4RI64i7yAFHNl8=</dsig:DigestValue>
+        <dsig:DigestValue>lHtzCi23WNBip5dJ04d6hhHtlRYXnxaGLN3vpVbl9Gc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -803,6 +803,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>YyNzZIh7ofDFNZ7o9/Wx7WucCtyqB95SFCuxHRAY7Vk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.provider.sqlite3.dll" size="38400">
+      <assemblyIdentity name="SQLitePCLRaw.provider.sqlite3" version="2.0.7.1395" publicKeyToken="62684C7B4F184E3F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>omCiK9Qc5+VCX90wMyCVhfxod56X2MjRIyarXGXCDp4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -904,4 +916,4 @@
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=AzureAD\KoenJanssens" issuerKeyHash="5b2ba12fbe0b0094aa83ce70e6f41eb0883e2e14" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Mp8zso7Xu9TMZcqQ+VK4Ts93bKCG5Y2Qv63Tp25QB0M=</DigestValue></Reference></SignedInfo><SignatureValue>IoYjA1IWpiIfHPdNtE5BgkBHUUIBGZsCTVYwyCZDpsd/j3VEfK/LXhuSqlBx0+pTrjYT2VK5VxaiGbdzx7MHxvTQyFzE+hSVzFHwvpnrdHjwY8faBoxEV9wJIjBEm/x94Y7lRr6r2R4ccVsQYOotr6MgDRAtwmI4tNcKykOPIhM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wMjAeowQQ8Kznnn1InkstvGJMyx5x4nIlj4BGlKqyowtPlu9X0XnldEqtN3rPFZwAVCucVYtNy3g8U2YUV1cjl69rqCS9gs8upMNm1rpLYVPDwMWZtzuzFa3kTb7w3i7j0zCWWc2qDHoey97cLSBQCFoIAg+quoUefHBR11TwuU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4307506ea7d3adbf908de586a06c77cf4eb852f990ca65ccd4bbd78eb2339f32" Description="" Url=""><as:assemblyIdentity name="ExcelAddInTest.dll" version="1.0.0.0" publicKeyToken="01faef19c9dafab3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AzureAD\KoenJanssens</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BZ38yF6Vp0DsWvosgwc69INL/HINW9rUult9XfuSuAg=</DigestValue></Reference></SignedInfo><SignatureValue>f2EbWt5fOIohoJ84EuW0xhc6vLH9yiizKEGYZYAs2ivM1Zy5OdZA1IhTGDZF0mrqqP9wn77WgG/aqjZzFJqSLASQKgrqjj3aDwRhu5DoLXdKzy7caAMuwAodiRQVjgBqg+apjE/6Nd/iIxyBhOOuD91CtvyviyJGfhe3VDshfF8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wMjAeowQQ8Kznnn1InkstvGJMyx5x4nIlj4BGlKqyowtPlu9X0XnldEqtN3rPFZwAVCucVYtNy3g8U2YUV1cjl69rqCS9gs8upMNm1rpLYVPDwMWZtzuzFa3kTb7w3i7j0zCWWc2qDHoey97cLSBQCFoIAg+quoUefHBR11TwuU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQFUiw4GzE8q1AaZGQXf0hfTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAQQB6AHUAcgBlAEEARABcAEsAbwBlAG4ASgBhAG4AcwBzAGUAbgBzMB4XDTIxMTAwNjA5NDMxNloXDTIyMTAwNjE1NDMxNlowMzExMC8GA1UEAx4oAEEAegB1AHIAZQBBAEQAXABLAG8AZQBuAEoAYQBuAHMAcwBlAG4AczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwMjAeowQQ8Kznnn1InkstvGJMyx5x4nIlj4BGlKqyowtPlu9X0XnldEqtN3rPFZwAVCucVYtNy3g8U2YUV1cjl69rqCS9gs8upMNm1rpLYVPDwMWZtzuzFa3kTb7w3i7j0zCWWc2qDHoey97cLSBQCFoIAg+quoUefHBR11TwuUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAA2Fu3ZBmXU2jRMYTUUVLfdn5BRnyqA2S4kvzldgc5CDpbfaZKuZ/7R7nRCfiK7/9RZ2YTA0vl7uOVh/WQDhtQs491WhhorAwDhltPLLV6YOpo4DXGOSqHqJx2kMDycWJMAEZLKHGD77KQEdVQ7rXZzf/ezaqiLTO8bZggPB3VoQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=AzureAD\KoenJanssens" issuerKeyHash="5b2ba12fbe0b0094aa83ce70e6f41eb0883e2e14" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9lKDRj7a5brfVLnDEpvABzvScYXxzsvmVvDimo4ht6U=</DigestValue></Reference></SignedInfo><SignatureValue>ov7vCkIrnizQgVc1YsMpvaXvaL6tWOsnd/CtHrw2r4sKUWxQluJy2e0gInn+ZXamRjVo7nTvjD2wLHEt0N4tqMDdQmFXPfgJ69VOx1A6LZEpSbkyGA7Z/JnzGcLyedEE0IwEnaCzwr38grYBvtWrCaoQ7baDtXiXQpLIakr8alo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wMjAeowQQ8Kznnn1InkstvGJMyx5x4nIlj4BGlKqyowtPlu9X0XnldEqtN3rPFZwAVCucVYtNy3g8U2YUV1cjl69rqCS9gs8upMNm1rpLYVPDwMWZtzuzFa3kTb7w3i7j0zCWWc2qDHoey97cLSBQCFoIAg+quoUefHBR11TwuU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a5b7218e9ae2f056e6cbcef18571d23b07c09b12c3b954dfbae5da3e468352f6" Description="" Url=""><as:assemblyIdentity name="ExcelAddInTest.dll" version="1.0.0.0" publicKeyToken="01faef19c9dafab3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AzureAD\KoenJanssens</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1zd8TO87aTvXoQ9roLzoFiCP4w5CZTrW/sVf7vT8fOc=</DigestValue></Reference></SignedInfo><SignatureValue>b7JfnfJ+VvY40jIOczm55j7NUARN0T+u/p2PQQ0aflraodkB1BX7W+Z3LUXYYNBWzOlTH4VjIfMmQQZD6qNjxm2ltpV4lHx82PaF1VsQknIxEt/GZY3p2dcb396zEYyJljFqLs+0M91EErQmuR0ehHKzpfgp48phyvAiv+0zXCg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wMjAeowQQ8Kznnn1InkstvGJMyx5x4nIlj4BGlKqyowtPlu9X0XnldEqtN3rPFZwAVCucVYtNy3g8U2YUV1cjl69rqCS9gs8upMNm1rpLYVPDwMWZtzuzFa3kTb7w3i7j0zCWWc2qDHoey97cLSBQCFoIAg+quoUefHBR11TwuU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQFUiw4GzE8q1AaZGQXf0hfTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAQQB6AHUAcgBlAEEARABcAEsAbwBlAG4ASgBhAG4AcwBzAGUAbgBzMB4XDTIxMTAwNjA5NDMxNloXDTIyMTAwNjE1NDMxNlowMzExMC8GA1UEAx4oAEEAegB1AHIAZQBBAEQAXABLAG8AZQBuAEoAYQBuAHMAcwBlAG4AczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwMjAeowQQ8Kznnn1InkstvGJMyx5x4nIlj4BGlKqyowtPlu9X0XnldEqtN3rPFZwAVCucVYtNy3g8U2YUV1cjl69rqCS9gs8upMNm1rpLYVPDwMWZtzuzFa3kTb7w3i7j0zCWWc2qDHoey97cLSBQCFoIAg+quoUefHBR11TwuUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAA2Fu3ZBmXU2jRMYTUUVLfdn5BRnyqA2S4kvzldgc5CDpbfaZKuZ/7R7nRCfiK7/9RZ2YTA0vl7uOVh/WQDhtQs491WhhorAwDhltPLLV6YOpo4DXGOSqHqJx2kMDycWJMAEZLKHGD77KQEdVQ7rXZzf/ezaqiLTO8bZggPB3VoQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

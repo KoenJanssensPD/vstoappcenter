@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KoenJanssens\\source\\repos\\VSTOwithAPPCENTERtest\\ExcelAddInTest\\ExcelAddInTest.csproj": {}
+    "C:\\Users\\KoenJanssens\\source\\repos\\vstoappcenter\\ExcelAddInTest\\ExcelAddInTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KoenJanssens\\source\\repos\\VSTOwithAPPCENTERtest\\ExcelAddInTest\\ExcelAddInTest.csproj": {
+    "C:\\Users\\KoenJanssens\\source\\repos\\vstoappcenter\\ExcelAddInTest\\ExcelAddInTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KoenJanssens\\source\\repos\\VSTOwithAPPCENTERtest\\ExcelAddInTest\\ExcelAddInTest.csproj",
+        "projectUniqueName": "C:\\Users\\KoenJanssens\\source\\repos\\vstoappcenter\\ExcelAddInTest\\ExcelAddInTest.csproj",
         "projectName": "ExcelAddInTest",
-        "projectPath": "C:\\Users\\KoenJanssens\\source\\repos\\VSTOwithAPPCENTERtest\\ExcelAddInTest\\ExcelAddInTest.csproj",
+        "projectPath": "C:\\Users\\KoenJanssens\\source\\repos\\vstoappcenter\\ExcelAddInTest\\ExcelAddInTest.csproj",
         "packagesPath": "C:\\Users\\KoenJanssens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KoenJanssens\\source\\repos\\VSTOwithAPPCENTERtest\\ExcelAddInTest\\obj\\",
+        "outputPath": "C:\\Users\\KoenJanssens\\source\\repos\\vstoappcenter\\ExcelAddInTest\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -25,21 +25,25 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net48"
+          "net472"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net48": {
+          "net472": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net48": {
+        "net472": {
           "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
             "Microsoft.AppCenter.Analytics": {
               "target": "Package",
               "version": "[4.4.0, )"
@@ -47,6 +51,10 @@
             "Microsoft.AppCenter.Crashes": {
               "target": "Package",
               "version": "[4.4.0, )"
+            },
+            "SQLitePCLRaw.bundle_sqlite3": {
+              "target": "Package",
+              "version": "[2.0.7, )"
             }
           },
           "imports": [
